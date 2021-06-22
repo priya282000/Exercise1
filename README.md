@@ -88,5 +88,22 @@ LOGIC:
 LOGIC:
 * Open a file using file loaction in write mode.
 * Write the content required into the file.
+* A separate function is defined to split the words based on vowels.
+* The file written is now being opened in read mode and the contents of the file is read.
+* The words have been split using re.sub() with the vowel condition and is written back into file.
+* A separate function has been defined to capitalize third letter of each word.
+* Again the file is opened in read mode and splitted into each word.
+* Each word is checked if the length is greater than 3 and using slicing method the third word is 
+  capitalized and the resultant string is written into the same file.
+* A separate function has been defined to replace all the white spaces to '-'.
+* File is opened in the read mode and the contents of the file are read and splitted into separate 
+  words.
+* for loop is iterated till the end of the list and new string is appended with the word and '-' to 
+   add '-' between each word and write the resultant string into the file.
+* A separate function is defined to insert semi-colon at the end of each line.
+* Open the file in read mode and read the contents of file.
+* Slit the lines using '.' which denotes the end of the line.
+* for loop is iterated till the end of the list and semicolon is appended when each line is added.
+* Return the resultant string and write into the file.
  
  
