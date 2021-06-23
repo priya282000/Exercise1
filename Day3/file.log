@@ -1,0 +1,191 @@
+2021-06-23 17:06:45,339:115:INFO:File opened
+2021-06-23 17:06:45,339:117:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 17:06:45,339:74:INFO:(1, 1)
+2021-06-23 17:06:45,339:119:INFO:Word repeated maximum number of times : 
+2021-06-23 17:06:45,339:74:INFO:[('I', 4)]
+2021-06-23 17:06:45,339:121:INFO:Palindrome present in the file : 
+2021-06-23 17:06:45,339:74:INFO:['I', ' ', 'a', 'm', ' ', 'P', 'a', 'd', 'm', 'a', ' ', 'P', 'r', 'i', 'y', 'a', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'f', 'r', 'o', 'm', ' ', 'C', 'o', 'i', 'm', 'b', 'a', 't', 'o', 'r', 'e', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'd', 'o', 'i', 'n', 'g', ' ', 'i', 'n', 't', 'e', 'r', 'n', ' ', 'a', 't', ' ', 'a', 'd', 'f', '.', '\n', 'I', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'o', ' ', 'l', 'i', 's', 't', 'e', 'n', ' ', 'm', 'u', 's', 'i', 'c', ' ', 'm', 'a', 'l', 'a', 'y', 'a', 'l', 'a', 'm', '.', '\n']
+2021-06-23 17:06:45,339:123:INFO:Unique list : 
+2021-06-23 17:06:45,339:74:INFO:['Priya.', 'intern', 'from', 'music', 'Padma', 'I', 'adf.', 'malayalam.', 'am', 'to', 'at', 'doing', 'like', 'listen', 'Coimbatore.']
+2021-06-23 17:06:45,339:125:INFO:Word dictinary : 
+2021-06-23 17:06:45,339:74:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.', 5: 'I', 6: 'am', 7: 'from', 8: 'Coimbatore.', 9: 'I', 10: 'am', 11: 'doing', 12: 'intern', 13: 'at', 14: 'adf.', 15: 'I', 16: 'like', 17: 'to', 18: 'listen', 19: 'music', 20: 'malayalam.'}
+2021-06-23 17:06:45,348:128:INFO:Write a file : 
+2021-06-23 17:06:45,349:129:INFO:None
+2021-06-23 17:06:45,349:130:INFO:Split based on vowels : 
+2021-06-23 17:06:45,350:131:INFO:None
+2021-06-23 17:06:45,350:132:INFO:Capitalise third letter in each word : 
+2021-06-23 17:06:45,350:133:INFO:None
+2021-06-23 17:06:45,350:134:INFO:Replace whitespaces with - : 
+2021-06-23 17:06:45,350:135:INFO:None
+2021-06-23 17:06:45,350:136:INFO:Insert semi colon at end of each line : 
+2021-06-23 17:06:45,350:137:INFO:None
+2021-06-23 17:12:02,034:21:INFO:File not found
+2021-06-23 17:12:02,034:116:INFO:File opened
+2021-06-23 17:12:02,034:21:INFO:File not found
+2021-06-23 17:12:02,034:118:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 17:13:16,111:116:INFO:File opened
+2021-06-23 17:13:16,114:118:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 17:13:16,114:75:INFO:(1, 1)
+2021-06-23 17:13:16,114:120:INFO:Word repeated maximum number of times : 
+2021-06-23 17:13:16,114:75:INFO:[('I', 4)]
+2021-06-23 17:13:16,115:122:INFO:Palindrome present in the file : 
+2021-06-23 17:13:16,115:75:INFO:['I', ' ', 'a', 'm', ' ', 'P', 'a', 'd', 'm', 'a', ' ', 'P', 'r', 'i', 'y', 'a', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'f', 'r', 'o', 'm', ' ', 'C', 'o', 'i', 'm', 'b', 'a', 't', 'o', 'r', 'e', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'd', 'o', 'i', 'n', 'g', ' ', 'i', 'n', 't', 'e', 'r', 'n', ' ', 'a', 't', ' ', 'a', 'd', 'f', '.', '\n', 'I', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'o', ' ', 'l', 'i', 's', 't', 'e', 'n', ' ', 'm', 'u', 's', 'i', 'c', ' ', 'm', 'a', 'l', 'a', 'y', 'a', 'l', 'a', 'm', '.', '\n']
+2021-06-23 17:13:16,115:124:INFO:Unique list : 
+2021-06-23 17:13:16,115:75:INFO:['Priya.', 'to', 'doing', 'Coimbatore.', 'music', 'from', 'am', 'I', 'at', 'listen', 'adf.', 'intern', 'malayalam.', 'like', 'Padma']
+2021-06-23 17:13:16,115:126:INFO:Word dictinary : 
+2021-06-23 17:13:16,115:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.', 5: 'I', 6: 'am', 7: 'from', 8: 'Coimbatore.', 9: 'I', 10: 'am', 11: 'doing', 12: 'intern', 13: 'at', 14: 'adf.', 15: 'I', 16: 'like', 17: 'to', 18: 'listen', 19: 'music', 20: 'malayalam.'}
+2021-06-23 17:13:16,116:28:INFO:Error in opening the file
+2021-06-23 17:13:16,116:129:INFO:Write a file : 
+2021-06-23 18:19:26,778:19:INFO:File not found
+2021-06-23 18:19:26,779:114:INFO:File opened
+2021-06-23 18:19:26,779:19:INFO:File not found
+2021-06-23 18:19:26,779:116:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:36:38,067:19:INFO:File not found
+2021-06-23 18:36:38,067:117:INFO:File opened
+2021-06-23 18:36:38,067:19:INFO:File not found
+2021-06-23 18:36:38,067:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:38:22,909:19:INFO:File not found
+2021-06-23 18:38:22,909:118:INFO:File opened
+2021-06-23 18:38:22,909:19:INFO:File not found
+2021-06-23 18:38:22,909:120:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:48:14,603:19:INFO:File not found
+2021-06-23 18:48:14,603:117:INFO:File opened
+2021-06-23 18:48:14,603:19:INFO:File not found
+2021-06-23 18:48:14,603:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:49:20,125:19:INFO:File not found
+2021-06-23 18:49:20,125:118:INFO:File opened
+2021-06-23 18:49:20,125:19:INFO:File not found
+2021-06-23 18:49:20,125:120:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:50:25,861:19:INFO:File not found
+2021-06-23 18:50:25,861:117:INFO:File opened
+2021-06-23 18:50:25,861:19:INFO:File not found
+2021-06-23 18:50:25,861:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:50:43,881:19:INFO:File not found
+2021-06-23 18:50:43,881:117:INFO:File opened
+2021-06-23 18:50:43,881:19:INFO:File not found
+2021-06-23 18:50:43,881:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:55:12,790:19:INFO:File not found
+2021-06-23 18:55:12,790:117:INFO:File opened
+2021-06-23 18:55:12,790:19:INFO:File not found
+2021-06-23 18:55:12,790:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 18:55:51,078:19:INFO:File not found
+2021-06-23 18:55:51,078:117:INFO:File opened
+2021-06-23 18:55:51,078:19:INFO:File not found
+2021-06-23 18:55:51,078:119:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:04:48,457:15:INFO:File not found
+2021-06-23 19:04:48,457:113:INFO:File opened
+2021-06-23 19:04:48,457:15:INFO:File not found
+2021-06-23 19:04:48,457:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:06:40,207:15:INFO:File not found
+2021-06-23 19:06:40,207:113:INFO:File opened
+2021-06-23 19:06:40,207:15:INFO:File not found
+2021-06-23 19:06:40,207:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:08:50,336:14:INFO:File not found
+2021-06-23 19:08:50,336:112:INFO:File opened
+2021-06-23 19:08:50,336:14:INFO:File not found
+2021-06-23 19:08:50,336:114:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:10:55,038:113:INFO:File opened
+2021-06-23 19:10:55,038:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:10:55,038:68:INFO:(0, 0)
+2021-06-23 19:10:55,038:117:INFO:Word repeated maximum number of times : 
+2021-06-23 19:10:55,038:68:INFO:[(':', 2)]
+2021-06-23 19:10:55,038:119:INFO:Palindrome present in the file : 
+2021-06-23 19:10:55,038:68:INFO:['f', 'i', 'l', 'e', '=', '{', '\n', ' ', ' ', ' ', ' ', '"', 'r', 'e', 'a', 'd', 'f', 'i', 'l', 'e', '"', ' ', ':', ' ', '"', 'a', 'b', 'c', '.', 't', 'x', 't', '"', ',', '\n', ' ', ' ', ' ', ' ', '"', 'w', 'r', 'i', 't', 'e', 'f', 'i', 'l', 'e', '"', ' ', ':', ' ', '"', 'a', 'b', 'c', '1', '.', 't', 'x', 't', '"', '\n', '}']
+2021-06-23 19:10:55,038:121:INFO:Unique list : 
+2021-06-23 19:10:55,038:68:INFO:['"abc1.txt"', 'file={', '"readfile"', '}', '"writefile"', '"abc.txt",', ':']
+2021-06-23 19:10:55,038:123:INFO:Word dictinary : 
+2021-06-23 19:10:55,038:68:INFO:{1: 'file={', 2: '"readfile"', 3: ':', 4: '"abc.txt",', 5: '"writefile"', 6: ':', 7: '"abc1.txt"', 8: '}'}
+2021-06-23 19:10:55,050:126:INFO:Write a file : 
+2021-06-23 19:10:55,050:127:INFO:None
+2021-06-23 19:10:55,050:128:INFO:Split based on vowels : 
+2021-06-23 19:10:55,050:129:INFO:None
+2021-06-23 19:10:55,050:130:INFO:Capitalise third letter in each word : 
+2021-06-23 19:10:55,050:131:INFO:None
+2021-06-23 19:10:55,050:132:INFO:Replace whitespaces with - : 
+2021-06-23 19:10:55,050:133:INFO:None
+2021-06-23 19:10:55,050:134:INFO:Insert semi colon at end of each line : 
+2021-06-23 19:10:55,050:135:INFO:None
+2021-06-23 19:11:40,132:15:INFO:File not found
+2021-06-23 19:11:40,132:113:INFO:File opened
+2021-06-23 19:11:40,133:15:INFO:File not found
+2021-06-23 19:11:40,133:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:13:37,906:20:INFO:File not found
+2021-06-23 19:13:37,906:118:INFO:File opened
+2021-06-23 19:13:37,906:20:INFO:File not found
+2021-06-23 19:13:37,907:120:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:14:31,877:113:INFO:File opened
+2021-06-23 19:14:31,877:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:14:31,877:68:INFO:(0, 0)
+2021-06-23 19:14:31,877:117:INFO:Word repeated maximum number of times : 
+2021-06-23 19:14:31,877:68:INFO:[(':', 2)]
+2021-06-23 19:14:31,877:119:INFO:Palindrome present in the file : 
+2021-06-23 19:14:31,877:68:INFO:['f', 'i', 'l', 'e', '=', '{', '\n', ' ', ' ', ' ', ' ', '"', 'r', 'e', 'a', 'd', 'f', 'i', 'l', 'e', '"', ' ', ':', ' ', '"', 'a', 'b', 'c', '.', 't', 'x', 't', '"', ',', '\n', ' ', ' ', ' ', ' ', '"', 'w', 'r', 'i', 't', 'e', 'f', 'i', 'l', 'e', '"', ' ', ':', ' ', '"', 'a', 'b', 'c', '1', '.', 't', 'x', 't', '"', '\n', '}']
+2021-06-23 19:14:31,877:121:INFO:Unique list : 
+2021-06-23 19:14:31,877:68:INFO:['"abc1.txt"', '}', 'file={', '"writefile"', '"abc.txt",', ':', '"readfile"']
+2021-06-23 19:14:31,877:123:INFO:Word dictinary : 
+2021-06-23 19:14:31,877:68:INFO:{1: 'file={', 2: '"readfile"', 3: ':', 4: '"abc.txt",', 5: '"writefile"', 6: ':', 7: '"abc1.txt"', 8: '}'}
+2021-06-23 19:14:31,877:126:INFO:Write a file : 
+2021-06-23 19:14:31,893:127:INFO:None
+2021-06-23 19:14:31,893:128:INFO:Split based on vowels : 
+2021-06-23 19:14:31,893:129:INFO:None
+2021-06-23 19:14:31,893:130:INFO:Capitalise third letter in each word : 
+2021-06-23 19:14:31,893:131:INFO:None
+2021-06-23 19:14:31,893:132:INFO:Replace whitespaces with - : 
+2021-06-23 19:14:31,893:133:INFO:None
+2021-06-23 19:14:31,893:134:INFO:Insert semi colon at end of each line : 
+2021-06-23 19:14:31,893:135:INFO:None
+2021-06-23 19:16:37,812:15:INFO:File not found
+2021-06-23 19:16:37,812:113:INFO:File opened
+2021-06-23 19:16:37,812:15:INFO:File not found
+2021-06-23 19:16:37,812:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:26:56,175:15:INFO:File not found
+2021-06-23 19:26:56,175:113:INFO:File opened
+2021-06-23 19:26:56,175:15:INFO:File not found
+2021-06-23 19:26:56,175:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:35:04,564:15:INFO:File not found
+2021-06-23 19:35:04,564:113:INFO:File opened
+2021-06-23 19:35:04,564:15:INFO:File not found
+2021-06-23 19:35:04,564:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:40:56,770:14:INFO:File not found
+2021-06-23 19:40:56,770:112:INFO:File opened
+2021-06-23 19:40:56,770:14:INFO:File not found
+2021-06-23 19:40:56,770:114:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 19:46:24,738:15:INFO:File not found
+2021-06-23 19:46:24,738:112:INFO:File opened
+2021-06-23 19:46:24,738:15:INFO:File not found
+2021-06-23 19:46:24,738:114:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 20:03:27,038:15:INFO:File not found
+2021-06-23 20:03:27,039:112:INFO:File opened
+2021-06-23 20:03:27,039:15:INFO:File not found
+2021-06-23 20:03:27,039:114:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 20:07:21,794:15:INFO:File not found
+2021-06-23 20:07:21,794:113:INFO:File opened
+2021-06-23 20:07:21,794:15:INFO:File not found
+2021-06-23 20:07:21,794:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 20:13:20,367:18:INFO:File not found
+2021-06-23 20:13:20,368:116:INFO:File opened
+2021-06-23 20:13:45,064:18:INFO:File not found
+2021-06-23 20:13:45,064:116:INFO:File opened
+2021-06-23 20:13:45,065:18:INFO:File not found
+2021-06-23 20:13:45,065:118:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 20:16:39,526:113:INFO:File opened
+2021-06-23 20:16:39,527:115:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-23 20:16:39,527:68:INFO:(1, 1)
+2021-06-23 20:16:39,527:117:INFO:Word repeated maximum number of times : 
+2021-06-23 20:16:39,527:68:INFO:[('I', 4)]
+2021-06-23 20:16:39,527:119:INFO:Palindrome present in the file : 
+2021-06-23 20:16:39,527:68:INFO:['I', ' ', 'a', 'm', ' ', 'P', 'a', 'd', 'm', 'a', ' ', 'P', 'r', 'i', 'y', 'a', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'f', 'r', 'o', 'm', ' ', 'C', 'o', 'i', 'm', 'b', 'a', 't', 'o', 'r', 'e', '.', '\n', 'I', ' ', 'a', 'm', ' ', 'd', 'o', 'i', 'n', 'g', ' ', 'i', 'n', 't', 'e', 'r', 'n', ' ', 'a', 't', ' ', 'a', 'd', 'f', '.', '\n', 'I', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'o', ' ', 'l', 'i', 's', 't', 'e', 'n', ' ', 'm', 'u', 's', 'i', 'c', ' ', 'm', 'a', 'l', 'a', 'y', 'a', 'l', 'a', 'm', '.', '\n']
+2021-06-23 20:16:39,527:121:INFO:Unique list : 
+2021-06-23 20:16:39,527:68:INFO:['intern', 'am', 'at', 'Padma', 'doing', 'I', 'Priya.', 'like', 'to', 'Coimbatore.', 'adf.', 'listen', 'music', 'from', 'malayalam.']
+2021-06-23 20:16:39,527:123:INFO:Word dictinary : 
+2021-06-23 20:16:39,527:68:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.', 5: 'I', 6: 'am', 7: 'from', 8: 'Coimbatore.', 9: 'I', 10: 'am', 11: 'doing', 12: 'intern', 13: 'at', 14: 'adf.', 15: 'I', 16: 'like', 17: 'to', 18: 'listen', 19: 'music', 20: 'malayalam.'}
+2021-06-23 20:16:39,531:126:INFO:Write a file : 
+2021-06-23 20:16:39,531:127:INFO:None
+2021-06-23 20:16:39,531:128:INFO:Split based on vowels : 
+2021-06-23 20:16:39,532:129:INFO:None
+2021-06-23 20:16:39,532:130:INFO:Capitalise third letter in each word : 
+2021-06-23 20:16:39,532:131:INFO:None
+2021-06-23 20:16:39,532:132:INFO:Replace whitespaces with - : 
+2021-06-23 20:16:39,532:133:INFO:None
+2021-06-23 20:16:39,533:134:INFO:Insert semi colon at end of each line : 
+2021-06-23 20:16:39,533:135:INFO:None
