@@ -1,0 +1,231 @@
+2021-06-24 20:46:15,771:118:INFO:File opened
+2021-06-24 20:46:15,772:121:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 20:46:15,774:75:INFO:(1, 1)
+2021-06-24 20:46:15,774:124:INFO:Word repeated maximum number of times : 
+2021-06-24 20:46:15,775:75:INFO:[('am', 3)]
+2021-06-24 20:46:15,775:127:INFO:Palindrome present in the file : 
+2021-06-24 20:46:15,775:75:INFO:['I']
+2021-06-24 20:46:15,775:130:INFO:Unique list : 
+2021-06-24 20:46:15,775:75:INFO:['Coimbatore.I', 'Priya.I', 'intern', 'Padma', 'am', 'at', 'from', 'to', 'doing', 'malayalam.', 'like', 'listen', 'music', 'adf.I', 'I']
+2021-06-24 20:46:15,775:133:INFO:Word dictinary : 
+2021-06-24 20:46:15,779:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 20:46:15,782:137:INFO:Write a file : 
+2021-06-24 20:46:15,783:138:INFO:None
+2021-06-24 20:46:15,783:140:INFO:Split based on vowels : 
+2021-06-24 20:46:15,783:141:INFO:None
+2021-06-24 20:46:15,783:143:INFO:Capitalise third letter in each word : 
+2021-06-24 20:46:15,783:144:INFO:None
+2021-06-24 20:46:15,783:146:INFO:Replace whitespaces with - : 
+2021-06-24 20:46:15,783:147:INFO:None
+2021-06-24 20:46:15,783:149:INFO:Insert semi colon at end of each line : 
+2021-06-24 20:46:15,783:150:INFO:None
+2021-06-24 20:47:33,854:119:INFO:File opened
+2021-06-24 20:47:33,854:122:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 20:47:33,854:76:INFO:(1, 1)
+2021-06-24 20:47:33,854:125:INFO:Word repeated maximum number of times : 
+2021-06-24 20:47:33,854:76:INFO:[('am', 3)]
+2021-06-24 20:47:33,854:128:INFO:Palindrome present in the file : 
+2021-06-24 20:47:33,854:76:INFO:['I']
+2021-06-24 20:47:33,854:131:INFO:Unique list : 
+2021-06-24 20:47:33,854:76:INFO:['Padma', 'Priya.I', 'from', 'doing', 'at', 'Coimbatore.I', 'listen', 'intern', 'to', 'malayalam.', 'adf.I', 'like', 'music', 'I', 'am']
+2021-06-24 20:47:33,854:134:INFO:Word dictinary : 
+2021-06-24 20:47:33,854:76:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 20:47:33,854:138:INFO:Write a file : 
+2021-06-24 20:47:33,854:139:INFO:None
+2021-06-24 20:47:33,854:141:INFO:Split based on vowels : 
+2021-06-24 20:47:33,854:142:INFO:None
+2021-06-24 20:47:33,854:144:INFO:Capitalise third letter in each word : 
+2021-06-24 20:47:33,854:145:INFO:None
+2021-06-24 20:47:33,854:147:INFO:Replace whitespaces with - : 
+2021-06-24 20:47:33,854:148:INFO:None
+2021-06-24 20:47:33,854:150:INFO:Insert semi colon at end of each line : 
+2021-06-24 20:47:33,870:151:INFO:None
+2021-06-24 21:07:34,625:119:INFO:File opened
+2021-06-24 21:07:34,633:122:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:07:34,633:76:INFO:(1, 1)
+2021-06-24 21:07:34,634:125:INFO:Word repeated maximum number of times : 
+2021-06-24 21:07:34,634:76:INFO:[('am', 3)]
+2021-06-24 21:07:34,635:128:INFO:Palindrome present in the file : 
+2021-06-24 21:07:34,635:76:INFO:['I']
+2021-06-24 21:07:34,636:131:INFO:Unique list : 
+2021-06-24 21:07:34,636:76:INFO:['Coimbatore.I', 'adf.I', 'doing', 'at', 'to', 'I', 'am', 'listen', 'Padma', 'like', 'music', 'malayalam.', 'from', 'intern', 'Priya.I']
+2021-06-24 21:07:34,636:134:INFO:Word dictinary : 
+2021-06-24 21:07:34,637:76:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:07:34,638:138:INFO:Write a file : 
+2021-06-24 21:07:34,638:139:INFO:None
+2021-06-24 21:07:34,638:141:INFO:Split based on vowels : 
+2021-06-24 21:07:34,640:142:INFO:None
+2021-06-24 21:07:34,640:144:INFO:Capitalise third letter in each word : 
+2021-06-24 21:07:34,641:145:INFO:None
+2021-06-24 21:07:34,641:147:INFO:Replace whitespaces with - : 
+2021-06-24 21:07:34,641:148:INFO:None
+2021-06-24 21:07:34,641:150:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:07:34,641:151:INFO:None
+2021-06-24 21:21:15,227:120:INFO:File opened
+2021-06-24 21:21:15,424:123:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:21:15,424:76:INFO:(1, 1)
+2021-06-24 21:21:15,428:126:INFO:Word repeated maximum number of times : 
+2021-06-24 21:21:15,428:76:INFO:[('am', 3)]
+2021-06-24 21:21:15,429:129:INFO:Palindrome present in the file : 
+2021-06-24 21:21:15,429:76:INFO:['I']
+2021-06-24 21:21:15,429:132:INFO:Unique list : 
+2021-06-24 21:21:15,430:76:INFO:['I', 'Coimbatore.I', 'intern', 'malayalam.', 'music', 'like', 'am', 'listen', 'at', 'doing', 'adf.I', 'Padma', 'from', 'to', 'Priya.I']
+2021-06-24 21:21:15,430:135:INFO:Word dictinary : 
+2021-06-24 21:21:15,431:76:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:21:15,431:139:INFO:Write a file : 
+2021-06-24 21:21:15,431:140:INFO:None
+2021-06-24 21:21:15,431:142:INFO:Split based on vowels : 
+2021-06-24 21:21:15,435:143:INFO:None
+2021-06-24 21:21:15,435:145:INFO:Capitalise third letter in each word : 
+2021-06-24 21:21:15,436:146:INFO:None
+2021-06-24 21:21:15,436:148:INFO:Replace whitespaces with - : 
+2021-06-24 21:21:15,437:149:INFO:None
+2021-06-24 21:21:15,437:151:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:21:15,438:152:INFO:None
+2021-06-24 21:22:58,600:119:INFO:File opened
+2021-06-24 21:22:58,601:122:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:22:58,602:75:INFO:(1, 1)
+2021-06-24 21:22:58,602:125:INFO:Word repeated maximum number of times : 
+2021-06-24 21:22:58,602:75:INFO:[('am', 3)]
+2021-06-24 21:22:58,602:128:INFO:Palindrome present in the file : 
+2021-06-24 21:22:58,602:75:INFO:['I']
+2021-06-24 21:22:58,602:131:INFO:Unique list : 
+2021-06-24 21:22:58,603:75:INFO:['from', 'Priya.I', 'intern', 'like', 'Padma', 'music', 'at', 'malayalam.', 'doing', 'I', 'listen', 'Coimbatore.I', 'to', 'adf.I', 'am']
+2021-06-24 21:22:58,603:134:INFO:Word dictinary : 
+2021-06-24 21:22:58,604:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:22:58,605:138:INFO:Write a file : 
+2021-06-24 21:22:58,605:139:INFO:None
+2021-06-24 21:22:58,605:141:INFO:Split based on vowels : 
+2021-06-24 21:22:58,606:142:INFO:None
+2021-06-24 21:22:58,606:144:INFO:Capitalise third letter in each word : 
+2021-06-24 21:22:58,607:145:INFO:None
+2021-06-24 21:22:58,607:147:INFO:Replace whitespaces with - : 
+2021-06-24 21:22:58,607:148:INFO:None
+2021-06-24 21:22:58,607:150:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:22:58,608:151:INFO:None
+2021-06-24 21:23:31,571:119:INFO:File opened
+2021-06-24 21:23:31,571:122:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:23:31,572:75:INFO:(1, 1)
+2021-06-24 21:23:31,572:125:INFO:Word repeated maximum number of times : 
+2021-06-24 21:23:31,572:75:INFO:[('am', 3)]
+2021-06-24 21:23:31,572:128:INFO:Palindrome present in the file : 
+2021-06-24 21:23:31,572:75:INFO:['I']
+2021-06-24 21:23:31,572:131:INFO:Unique list : 
+2021-06-24 21:23:31,573:75:INFO:['Priya.I', 'I', 'like', 'Padma', 'doing', 'malayalam.', 'adf.I', 'at', 'intern', 'am', 'from', 'listen', 'Coimbatore.I', 'music', 'to']
+2021-06-24 21:23:31,573:134:INFO:Word dictinary : 
+2021-06-24 21:23:31,573:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:23:31,574:138:INFO:Write a file : 
+2021-06-24 21:23:31,574:139:INFO:None
+2021-06-24 21:23:31,574:141:INFO:Split based on vowels : 
+2021-06-24 21:23:31,575:142:INFO:None
+2021-06-24 21:23:31,575:144:INFO:Capitalise third letter in each word : 
+2021-06-24 21:23:31,575:145:INFO:None
+2021-06-24 21:23:31,575:147:INFO:Replace whitespaces with - : 
+2021-06-24 21:23:31,575:148:INFO:None
+2021-06-24 21:23:31,575:150:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:23:31,575:151:INFO:None
+2021-06-24 21:27:02,836:120:INFO:File opened
+2021-06-24 21:27:02,836:123:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:27:02,836:75:INFO:(1, 1)
+2021-06-24 21:27:02,836:126:INFO:Word repeated maximum number of times : 
+2021-06-24 21:27:02,837:75:INFO:[('am', 3)]
+2021-06-24 21:27:02,837:129:INFO:Palindrome present in the file : 
+2021-06-24 21:27:02,837:75:INFO:['I']
+2021-06-24 21:27:02,837:132:INFO:Unique list : 
+2021-06-24 21:27:02,837:75:INFO:['malayalam.', 'am', 'intern', 'doing', 'from', 'I', 'adf.I', 'at', 'Coimbatore.I', 'to', 'music', 'listen', 'like', 'Priya.I', 'Padma']
+2021-06-24 21:27:02,837:135:INFO:Word dictinary : 
+2021-06-24 21:27:02,837:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:27:02,839:139:INFO:Write a file : 
+2021-06-24 21:27:02,839:140:INFO:None
+2021-06-24 21:27:02,839:142:INFO:Split based on vowels : 
+2021-06-24 21:27:02,840:143:INFO:None
+2021-06-24 21:27:02,840:145:INFO:Capitalise third letter in each word : 
+2021-06-24 21:27:02,841:146:INFO:None
+2021-06-24 21:27:02,841:148:INFO:Replace whitespaces with - : 
+2021-06-24 21:27:02,841:149:INFO:None
+2021-06-24 21:27:02,841:151:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:27:02,842:152:INFO:None
+2021-06-24 21:29:47,321:120:INFO:File opened
+2021-06-24 21:29:47,323:123:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:29:47,324:75:INFO:(1, 1)
+2021-06-24 21:29:47,324:126:INFO:Word repeated maximum number of times : 
+2021-06-24 21:29:47,324:75:INFO:[('am', 3)]
+2021-06-24 21:29:47,324:129:INFO:Palindrome present in the file : 
+2021-06-24 21:29:47,324:75:INFO:['I']
+2021-06-24 21:29:47,324:132:INFO:Unique list : 
+2021-06-24 21:29:47,324:75:INFO:['adf.I', 'Priya.I', 'Padma', 'malayalam.', 'music', 'like', 'I', 'am', 'to', 'intern', 'Coimbatore.I', 'at', 'listen', 'from', 'doing']
+2021-06-24 21:29:47,324:135:INFO:Word dictinary : 
+2021-06-24 21:29:47,324:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:29:47,324:139:INFO:Write a file : 
+2021-06-24 21:29:47,331:140:INFO:None
+2021-06-24 21:29:47,331:142:INFO:Split based on vowels : 
+2021-06-24 21:29:47,332:143:INFO:None
+2021-06-24 21:29:47,332:145:INFO:Capitalise third letter in each word : 
+2021-06-24 21:29:47,332:146:INFO:None
+2021-06-24 21:29:47,332:148:INFO:Replace whitespaces with - : 
+2021-06-24 21:29:47,332:149:INFO:None
+2021-06-24 21:29:47,332:151:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:29:47,332:152:INFO:None
+2021-06-24 21:32:32,683:120:INFO:File opened
+2021-06-24 21:32:32,684:123:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:32:32,684:75:INFO:(1, 1)
+2021-06-24 21:32:32,684:126:INFO:Word repeated maximum number of times : 
+2021-06-24 21:32:32,685:75:INFO:[('am', 3)]
+2021-06-24 21:32:32,685:129:INFO:Palindrome present in the file : 
+2021-06-24 21:32:32,685:75:INFO:['I']
+2021-06-24 21:32:32,685:132:INFO:Unique list : 
+2021-06-24 21:32:32,685:75:INFO:['to', 'doing', 'malayalam.', 'like', 'music', 'at', 'from', 'adf.I', 'I', 'Priya.I', 'listen', 'Coimbatore.I', 'intern', 'Padma', 'am']
+2021-06-24 21:32:32,685:135:INFO:Word dictinary : 
+2021-06-24 21:32:32,685:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:32:32,687:139:INFO:Write a file : 
+2021-06-24 21:32:32,687:140:INFO:None
+2021-06-24 21:32:32,687:142:INFO:Split based on vowels : 
+2021-06-24 21:32:32,688:143:INFO:None
+2021-06-24 21:32:32,688:145:INFO:Capitalise third letter in each word : 
+2021-06-24 21:32:32,688:146:INFO:None
+2021-06-24 21:32:32,688:148:INFO:Replace whitespaces with - : 
+2021-06-24 21:32:32,688:149:INFO:None
+2021-06-24 21:32:32,688:151:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:32:32,688:152:INFO:None
+2021-06-24 21:32:53,079:118:INFO:File opened
+2021-06-24 21:32:53,079:121:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:32:53,079:75:INFO:(1, 1)
+2021-06-24 21:32:53,079:124:INFO:Word repeated maximum number of times : 
+2021-06-24 21:32:53,079:75:INFO:[('am', 3)]
+2021-06-24 21:32:53,079:127:INFO:Palindrome present in the file : 
+2021-06-24 21:32:53,079:75:INFO:['I']
+2021-06-24 21:32:53,079:130:INFO:Unique list : 
+2021-06-24 21:32:53,079:75:INFO:['I', 'adf.I', 'malayalam.', 'am', 'Padma', 'listen', 'Coimbatore.I', 'doing', 'intern', 'Priya.I', 'from', 'music', 'to', 'like', 'at']
+2021-06-24 21:32:53,079:133:INFO:Word dictinary : 
+2021-06-24 21:32:53,079:75:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:32:53,079:137:INFO:Write a file : 
+2021-06-24 21:32:53,085:138:INFO:None
+2021-06-24 21:32:53,085:140:INFO:Split based on vowels : 
+2021-06-24 21:32:53,085:141:INFO:None
+2021-06-24 21:32:53,085:143:INFO:Capitalise third letter in each word : 
+2021-06-24 21:32:53,086:144:INFO:None
+2021-06-24 21:32:53,086:146:INFO:Replace whitespaces with - : 
+2021-06-24 21:32:53,086:147:INFO:None
+2021-06-24 21:32:53,086:149:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:32:53,086:150:INFO:None
+2021-06-24 21:33:40,140:115:INFO:File opened
+2021-06-24 21:33:40,140:118:INFO:Number of words starting from 'to' and ending with 'ing' : 
+2021-06-24 21:33:40,140:72:INFO:(1, 1)
+2021-06-24 21:33:40,140:121:INFO:Word repeated maximum number of times : 
+2021-06-24 21:33:40,148:72:INFO:[('am', 3)]
+2021-06-24 21:33:40,148:124:INFO:Palindrome present in the file : 
+2021-06-24 21:33:40,148:72:INFO:['I']
+2021-06-24 21:33:40,148:127:INFO:Unique list : 
+2021-06-24 21:33:40,148:72:INFO:['music', 'like', 'intern', 'adf.I', 'am', 'I', 'Padma', 'Coimbatore.I', 'doing', 'malayalam.', 'at', 'Priya.I', 'to', 'from', 'listen']
+2021-06-24 21:33:40,148:130:INFO:Word dictinary : 
+2021-06-24 21:33:40,148:72:INFO:{1: 'I', 2: 'am', 3: 'Padma', 4: 'Priya.I', 5: 'am', 6: 'from', 7: 'Coimbatore.I', 8: 'am', 9: 'doing', 10: 'intern', 11: 'at', 12: 'adf.I', 13: 'like', 14: 'to', 15: 'listen', 16: 'music', 17: 'malayalam.'}
+2021-06-24 21:33:40,148:134:INFO:Write a file : 
+2021-06-24 21:33:40,148:135:INFO:None
+2021-06-24 21:33:40,148:137:INFO:Split based on vowels : 
+2021-06-24 21:33:40,148:138:INFO:None
+2021-06-24 21:33:40,148:140:INFO:Capitalise third letter in each word : 
+2021-06-24 21:33:40,148:141:INFO:None
+2021-06-24 21:33:40,148:143:INFO:Replace whitespaces with - : 
+2021-06-24 21:33:40,148:144:INFO:None
+2021-06-24 21:33:40,148:146:INFO:Insert semi colon at end of each line : 
+2021-06-24 21:33:40,148:147:INFO:None
