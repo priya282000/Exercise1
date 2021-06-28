@@ -1,71 +1,179 @@
 import pytest
-from validate_fields import validate_methods
+import unittest
+from validate_fields import *
 
+class TestUser(unittest.TestCase):
+    def test_fname_success(self):
+        t1 = validate_methods().fname_validate("priya")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("fname, output", [("priya","success"),("abcdef","success"),("","first name not filled"),("priya123","name should have only alphabets")])
-def test_fname(fname, output):
-    assert validate_methods().fname_validate(fname) == output
+    def test_fname_empty(self):
+        t1 = validate_methods().fname_validate("")
+        self.assertEqual(t1, "first name not filled")
 
-@pytest.mark.parametrize("mname, output",[("","success"),("123","name should have only alphabets"),("abc", "success")])
-def test_mname(mname, output):
-    assert validate_methods().mname_validate(mname) == output
+    def test_fname_invalid(self):
+        t1 = validate_methods().fname_validate("1234")
+        self.assertEqual(t1, "name should have only alphabets")
 
-@pytest.mark.parametrize("lname, output",[("","Last name not filled"),("123","name should have only alphabets"),("abc", "success")])
-def test_mname(lname, output):
-    assert validate_methods().lname_validate(lname) == output
+    def test_mname_success(self):
+        t1 = validate_methods().mname_validate("priya")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("date, output",[("2000-12-28","success"),("28-11-2000","Invalid date")])
-def test_date(date, output):
-    assert validate_methods().dob_validate(date) == output
+    def test_mname_empty(self):
+        t1 = validate_methods().mname_validate("")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("gender, output",[("","Gender not filled"),("Female","success"),("123","Invalid gender")])
-def test_gender(gender, output):
-    assert validate_methods().gender_validate(gender) == output
+    def test_mname_invalid(self):
+        t1 = validate_methods().mname_validate("123")
+        self.assertEqual(t1, "name should have only alphabets")
 
-@pytest.mark.parametrize("nation, output",[("","Nationality not filled"),("Indian","success"),("123","Invalid nationality")])
-def test_nationality(nation, output):
-    assert validate_methods().nationality_validate(nation) == output
+    def test_lname_success(self):
+        t1 = validate_methods().lname_validate("priya")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("city, output",[("","City not filled"),("Coimbatore","success"),("123","Invalid city")])
-def test_city(city, output):
-    assert validate_methods().city_validate(city) == output
+    def test_lname_empty(self):
+        t1 = validate_methods().lname_validate("")
+        self.assertEqual(t1, "Last name not filled")
 
-@pytest.mark.parametrize("state, output",[(""," State not filled"),("Tamil Nadu","success")])
-def test_state(state, output):
-    assert validate_methods().state_validate(state) == output
+    def test_lname_invalid(self):
+        t1 = validate_methods().lname_validate("123")
+        self.assertEqual(t1, "name should have only alphabets")
 
-@pytest.mark.parametrize("pincode, output",[(0,"Pincode not filled"),(641025,"success"),("abc","Invalid pincode")])
-def test_pincode(pincode, output):
-    assert validate_methods().pincode_validate(pincode) == output
+    def test_date_success(self):
+        t1 = validate_methods().dob_validate("2000-11-28")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("qualification, output",[("","Qualification not filled"),("IT","success")])
-def test_qualification(qualification, output):
-    assert validate_methods().qualification_validate(qualification) == output
+    def test_date_invalid(self):
+        t1 = validate_methods().dob_validate("28-11-2000")
+        self.assertEqual(t1, "Invalid date")
 
-@pytest.mark.parametrize("pincode, output",[(0,"Pincode not filled"),(641025,"success"),("abc","Invalid pincode")])
-def test_pincode(pincode, output):
-    assert validate_methods().pincode_validate(pincode) == output
+    def test_gender_success(self):
+        t1 = validate_methods().gender_validate("Female")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("salary, output",[(0.0,"Salary not filled"),(20000.0,"success"),("abc","Invalid salary")])
-def test_salary(salary, output):
-    assert validate_methods().salary_validate(salary) == output
+    def test_gender_invalid(self):
+        t1 = validate_methods().gender_validate("123")
+        self.assertEqual(t1, "Invalid gender")
 
-@pytest.mark.parametrize("pan, output",[(0,"PAN number not filled"),(641025,"success"),("abc","Invalid PAN number")])
-def test_pan(pan, output):
-    assert validate_methods().pan_validate(pan) == output
+    def test_gender_empty(self):
+        t1 = validate_methods().gender_validate("")
+        self.assertEqual(t1, "Gender not filled")
 
-@pytest.mark.parametrize("gender, date, output",[("Male","2000-11-28","Age is less than expected"),("Male","1990-11-28","success"),("Female", "2000-11-28","success"),("Female","2010-11-28","Age is less than expected")])
-def test_age(gender, date, output):
-    assert validate_methods().eligibility_age(gender, date) == output
+    def test_nationality_success(self):
+        t1 = validate_methods().nationality_validate("Indian")
+        self.assertEqual(t1, "success")
 
-@pytest.mark.parametrize("nationality, output",[("Indian","success"),("Chinese","Nationality criteria not satisfied")])
-def test_nation(nationality, output):
-    assert validate_methods().eligibility_nation(nationality) == output
+    def test_nationality_empty(self):
+        t1 = validate_methods().nationality_validate("")
+        self.assertEqual(t1, "Nationality not filled")
 
-@pytest.mark.parametrize("state, output",[("Tamil Nadu","success"),("Chinese","State criteria not satisfied")])
-def test_state_criteria(state, output):
-    assert validate_methods().eligibility_state(state) == output
+    def test_nationality_invalid(self):
+        t1 = validate_methods().nationality_validate("123")
+        self.assertEqual(t1, "Invalid nationality")
 
-@pytest.mark.parametrize("salary, output",[(20000,"success"),(9000,"Salary criteria not satisfied")])
-def test_salary_criteria(salary, output):
-    assert validate_methods().eligibility_salary(salary) == output
+    def test_city_success(self):
+        t1 = validate_methods().city_validate("Coimbatore")
+        self.assertEqual(t1, "success")
+
+    def test_city_empty(self):
+        t1 = validate_methods().city_validate("")
+        self.assertEqual(t1, "City not filled")
+
+    def test_city_invalid(self):
+        t1 = validate_methods().city_validate("123")
+        self.assertEqual(t1, "Invalid city")
+
+    def test_state_success(self):
+        t1 = validate_methods().state_validate("Tamil Nadu")
+        self.assertEqual(t1, "success")
+
+    def test_state_empty(self):
+        t1 = validate_methods().state_validate("")
+        self.assertEqual(t1, " State not filled")
+
+    def test_pincode_success(self):
+        t1 = validate_methods().pincode_validate(641025)
+        self.assertEqual(t1, "success")
+
+    def test_pincode_empty(self):
+        t1 = validate_methods().pincode_validate(0)
+        self.assertEqual(t1, "Pincode not filled")
+
+    def test_pincode_invalid(self):
+        t1 = validate_methods().pincode_validate("abc")
+        self.assertEqual(t1, "Invalid pincode")
+
+    def test_qualification_success(self):
+        t1 = validate_methods().qualification_validate("IT")
+        self.assertEqual(t1, "success")
+
+    def test_qualification_empty(self):
+        t1 = validate_methods().qualification_validate("")
+        self.assertEqual(t1, "Qualification not filled")
+
+    def test_salary_success(self):
+        t1 = validate_methods().salary_validate(20000.0)
+        self.assertEqual(t1, "success")
+
+    def test_salary_empty(self):
+        t1 = validate_methods().salary_validate(0.0)
+        self.assertEqual(t1, "Salary not filled")
+
+    def test_salary_invalid(self):
+        t1 = validate_methods().salary_validate("abc")
+        self.assertEqual(t1, "Invalid salary")
+
+    def test_pan_success(self):
+        t1 = validate_methods().pan_validate(34567)
+        self.assertEqual(t1, "success")
+
+    def test_pan_empty(self):
+        t1 = validate_methods().pan_validate(0)
+        self.assertEqual(t1, "PAN number not filled")
+
+    def test_pan_invalid(self):
+        t1 = validate_methods().pan_validate("abc")
+        self.assertEqual(t1, "Invalid PAN number")
+
+    def test_age_fsuccess(self):
+        t1 = validate_methods().eligibility_age("Female", "2000-11-28")
+        self.assertEqual(t1, "success")
+
+    def test_age_msuccess(self):
+        t1 = validate_methods().eligibility_age("Male", "1990-11-28")
+        self.assertEqual(t1, "success")
+
+    def test_age_ffail(self):
+        t1 = validate_methods().eligibility_age("Female", "2005-11-28")
+        self.assertEqual(t1, "Age is less than expected")
+
+    def test_age_mfail(self):
+        t1 = validate_methods().eligibility_age("Male", "2005-11-28")
+        self.assertEqual(t1, "Age is less than expected")
+
+    def test_nation_success(self):
+        t1 = validate_methods().eligibility_nation("Indian")
+        self.assertEqual(t1, "success")
+
+    def test_nation_invalid(self):
+        t1 = validate_methods().eligibility_nation("Chinese")
+        self.assertEqual(t1, "Nationality criteria not satisfied")
+
+    def test_state_criteria_success(self):
+        t1 = validate_methods().eligibility_state("Tamil Nadu")
+        self.assertEqual(t1, "success")
+
+    def test_state_criteria_invalid(self):
+        t1 = validate_methods().eligibility_state("Chinese")
+        self.assertEqual(t1, "State criteria not satisfied")
+
+    def test_salary_criteria_success(self):
+        t1 = validate_methods().eligibility_salary(20000)
+        self.assertEqual(t1, "success")
+
+    def test_salary_criteria_invalid(self):
+        t1 = validate_methods().eligibility_salary(2000)
+        self.assertEqual(t1, "Salary criteria not satisfied")
+
+if __name__ == '__main__':
+    unittest.main()
